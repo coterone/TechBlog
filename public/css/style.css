@@ -1,18 +1,13 @@
 :root {
-    /* Colors */
-    --primary-color: #191814;
-    --secondary-color: #1C3F2C;
-    --tertiary-color: #5F7F6A;
-    --quaternary-color: #8EA895;
-    --quinary-color: #E5F3D6;
-    /* Font Sizes */
+    --primary-color: #5f7264;
+    --secondary-color: #9f6544;
+    --tertiary-color: #cfad99;
+    --quaternary-color: #f4efe8;
+    --quinary-color: #ffffff;
     --font-size-lg: 48px;
     --font-size-md: 24px;
     --font-size-sm: 16px;
 }
-
-/* =================================== */
-/* General TAGS Styling  */
 
 * {
     box-sizing: border-box;
@@ -70,6 +65,7 @@ p {
 
 textarea {
     min-height: 100px;
+
 }
 
 label {
@@ -85,6 +81,7 @@ textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    resize: none;
 }
 
 p,
